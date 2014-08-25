@@ -55,24 +55,49 @@
 
  	<p>
  		<h3>What is your name?</h3>
- 		<label><input type="radio" name="name" value="Ruth">Ruth</label><br>	
-    	<label><input type="radio" name="name" value="Sarah">Sarah</label><br>	
-    	<label><input type="radio" name="name" value="Anna">Anna</label><br>	
+ 		<label for ="name"><input type="radio" name="name" value="Ruth">Ruth</label><br>	
+    	<label for ="name"><input type="radio" name="name" value="Sarah">Sarah</label><br>	
+    	<label for ="name"><input type="radio" name="name" value="Anna">Anna</label><br>	
 
     	<h3>Where are you from?</h3>
- 		<label><input type="radio" name="location" value="San Antonio, Tx">San Antonio, Tx</label><br>	
-    	<label><input type="radio" name="location" value="Phoenix, Az">Phoenix, Az</label><br>	
-    	<label><input type="radio" name="location" value="New York, New York">New York, New York</label><br>	
+ 		<label for="location"><input type="radio" name="location" value="San Antonio, Tx">San Antonio, Tx</label><br>	
+    	<label for="location"><input type="radio" name="location" value="Phoenix, Az">Phoenix, Az</label><br>	
+    	<label for="location"><input type="radio" name="location" value="New York, New York">New York, New York</label><br>	
 
 
     	<h3>What are your favorite colors? (check all that apply)</h3>
- 		<label><input type="checkbox" name="color[]" value="red">Red</label><br>	
-    	<label><input type="checkbox" name="color[]" value="blue">Blue</label><br>	
-    	<label><input type="checkbox" name="color[]" value="green">Green</label><br>
-    	<label><input type="checkbox" name="color[]" value="orange">Orange</label><br>	
+ 		<label for="color"><input type="checkbox" name="color[]" value="red">Red</label><br>	
+    	<label for="color"><input type="checkbox" name="color[]" value="blue">Blue</label><br>	
+    	<label for="color"><input type="checkbox" name="color[]" value="green">Green</label><br>
+    	<label for="color"><input type="checkbox" name="color[]" value="orange">Orange</label><br><br>	
+
+    	<label for="dayofweek">What is your favorite day of the week?</label>
+		<select id="dayofweek" name="dayofweek">
+		<option value="-1">---check one---</option>	
+    	<option value="1">Monday</option>
+    	<option value="2">Tuesday</option>
+    	<option value="3">Wednesday</option>
+    	<option value="4">Thursday</option>
+    	<option value="5">Friday</option>
+    	<option value="6">Saturday</option>
+    	<option value="7">Sunday</option>
+		</select><br><br>
+
 
     	<input type="submit">
     </p>
+
+    <h1>Select Testing</h1>
+    <p>
+  
+    	<label for="day">Is Today Monday?</label>
+		<select id="day" name="day">
+		<option value="-1">---check one---</option>	
+    	<option value="1">Yes</option>
+    	<option value="0">No</option>
+		</select>
+
+		<input type="submit">
 
 </form>
 

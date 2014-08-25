@@ -93,7 +93,7 @@
     	<label for="day">Is Today Monday?</label>
 		<select id="day" name="day">
 		<option value="-1">---check one---</option>	
-    	<option value="1">Yes</option>
+    	<option value="1" selected>Yes</option>
     	<option value="0">No</option>
 		</select>
 

@@ -10,9 +10,8 @@
 <body>
 <h1>Login</h1>
 <form method ="POST">
-		
-
 <form method="POST" action="my_first_form.php">
+
     <p>
         <label for="username">Username</label>
         <input id="username" name="username" type="text" placeholder="enter username here"><br>
@@ -22,6 +21,7 @@
    
         <input type="submit">
     </p>
+</form>
 
 
 
@@ -48,6 +48,7 @@
      	<input type="submit" value="Send">
      	
     </p>
+</form>
 
  <h1>Multiple Choice Test</h1>
  <form method ="POST">
@@ -86,8 +87,12 @@
 
     	<input type="submit">
     </p>
+</form>
 
-    <h1>Select Testing</h1>
+ <h1>Select Testing</h1>
+ <form method ="POST">
+ <form method="POST" action="my_first_form.php">
+
     <p>
   
     	<label for="day">Is Today Monday?</label>
@@ -98,6 +103,7 @@
 		</select>
 
 		<input type="submit">
+	</p>	
 
 </form>
 

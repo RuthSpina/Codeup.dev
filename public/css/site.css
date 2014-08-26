@@ -3,7 +3,7 @@ this content is stored in a file named "site.css"
 in a directory named "css" in the web root
 */
 
-.fancy-header {
+.fancy-header h3 {
     color: 03A35D;
     text-decoration: underline;
 }

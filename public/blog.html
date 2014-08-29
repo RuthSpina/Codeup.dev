@@ -23,6 +23,11 @@
       font-family: 'Nixie One', cursive;
       font-size: 58px;
     }
+    p#fancy-font_p{
+      font-family:'Nixie One', cursive;
+      font-size:30px;
+    }
+    
   .sidebar{
         background-color: #BDBDBD;
         height:800px;
@@ -59,13 +64,13 @@
   margin-top:-275px;
 }
 .entry{
-  width:614px;
+  width:1037px;
   height:0px;
-  padding-right:305px;
-  padding-left:7px;
-  margin-right:450px;
-  margin-left:-653px;
-  margin-top:-275px;
+  padding-right:206px;
+  padding-left:0px;
+  margin-right:673px;
+  margin-left:-891px;
+  margin-top:205px;
 }
 
 </style>
@@ -100,11 +105,22 @@
 <!-- body begins from here down -->
   <div class="sidebar">
     <div class="container">
-<!-- email box -->
+<!-- sidebar box -->
   <div class="emailbox">
     <img src="/img/emailbox.jpg" class="img-responsive">
+    </div>
+    <div class="container">
+    <form method="POST" action="/process-form.php">
+    <p id="fancy-font_p"><br>Let's schedule an <br>interview today!<br>Fill out the form<br> below to get started.<br></p>
+        
+        <label for="Name">Name:</label>
+        <input id="Name" name="Name" type="text" placeholder="Name"><br>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="Email">
+    </p>
+  </form>
   </div>
-<!-- end of email box -->
+<!-- end of sidebar box -->
 
   <div class="container flower fa-spin">
   <div class="drops">
@@ -119,7 +135,7 @@
     <div class="raindrop sm"></div>
     <div class="raindrop sm"></div>
     <div class="raindrop sm"></div>
-    <div class="raindrop sm"></div> 
+    <div class="raindrop sm"></div>
 </div>
 <div class="drops">
     <div class="raindrops seed"></div>
@@ -134,9 +150,13 @@
     <p> The trials and tribulations of R. Spina... </p>
   </div>
   <div class="container entry">
-  <h1> test heading</h1>
-  <p> test paragraph</p>
+  <h2 id="fancy-font"> Unary operator, it's not what you think...</h2>
+  <p>Posted by: R. Spina Aug. 29th 2014</p><br><p> Messenger bag lo-fi ex authentic meggings, cardigan post-ironic fugiat pickled mumblecore deep v small batch. Culpa cardigan literally master cleanse, anim cillum aliquip. Magna et fanny pack Tumblr church-key, eu selvage raw denim squid consequat roof party deep v. Retro authentic ullamco jean shorts, exercitation placeat swag lomo. Drinking vinegar tattooed semiotics PBR, pariatur selvage nihil. Deep v nisi Marfa Portland, meggings biodiesel cornhole meh Bushwick nesciunt irony Tonx fashion axe aliqua. Officia culpa incididunt chambray.<br><br>
+
+Thundercats literally fanny pack magna, retro banh mi mustache. Readymade polaroid fugiat Marfa sapiente. Four loko quinoa commodo, sint disrupt Tumblr slow-carb velit exercitation aliqua chambray DIY. Ugh Intelligentsia slow-carb beard fugiat ad, art party chillwave chia twee sapiente craft beer. Distillery Bushwick lomo shabby chic, church-key typewriter sunt Tonx Truffaut cardigan mollit. Sint Schlitz narwhal keffiyeh. Mumblecore seitan biodiesel, hashtag fashion axe Vice organic stumptown.</p>
+<hr>
   </div>
+
 
 
 

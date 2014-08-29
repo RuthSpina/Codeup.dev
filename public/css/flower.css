@@ -1,0 +1,185 @@
+.raindrop{
+    
+    width                           : 80px;
+    height                          : 80px;
+    position                        : absolute;
+
+    border-radius                   : 100px;
+    -webkit-border-radius           : 100px;
+    -moz-border-radius              : 100px;
+    
+    border-top-right-radius         : 0;
+    -webkit-border-top-right-radius : 0;
+    -moz-border-radius-topright     : 0;
+    
+    transform                       : rotate(-45deg);
+    -webkit-transform               : rotate(-45deg);
+    -moz-transform                  : rotate(-45deg);
+    -o-transform                    : rotate(-45deg);
+    -ms-transform                   : rotate(-45deg);
+
+    transition                      : all 1s;
+    -webkit-transition              : all 1s;
+    -moz-transition                 : all 1s;
+    -o-transition                   : all 1s;
+    -ms-transition                  : all 1s;
+}
+
+.raindrop.sm {
+    background                      : #FF99CC;
+    width                           : 60px;
+    height                          : 60px;
+    position                        : absolute;
+    margin-left                     :15px;
+    margin-top                      :15px;
+
+    border-radius                   : 75px;
+    -webkit-border-radius           : 75px;
+    -moz-border-radius              : 75px;
+
+    border-top-right-radius         : 0;
+    -webkit-border-top-right-radius : 0;
+    -moz-border-radius-topright     : 0;
+   
+}
+.raindrops.seed {
+    background                      : #003300;
+    width                           : 9px;
+    height                          : 9px;
+    position                        : absolute;
+    margin-left                     :30px;
+    margin-top                      :31px;
+
+    border-radius                   : 75px;
+    -webkit-border-radius           : 75px;
+    -moz-border-radius              : 75px;
+
+    border-top-right-radius         : 0;
+    -webkit-border-top-right-radius : 0;
+    -moz-border-radius-topright     : 0;
+    position                        : absolute;
+    
+    border-top-right-radius         : 0;
+    -webkit-border-top-right-radius : 0;
+    -moz-border-radius-topright     : 0;
+    
+    transform                       : rotate(-45deg);
+    -webkit-transform               : rotate(-45deg);
+    -moz-transform                  : rotate(-45deg);
+    -o-transform                    : rotate(-45deg);
+    -ms-transform                   : rotate(-45deg);
+
+    transition                      : all 1s;
+    -webkit-transition              : all 1s;
+    -moz-transition                 : all 1s;
+    -o-transition                   : all 1s;
+    -ms-transition                  : all 1s;
+}
+
+.raindrop.lg {
+    background                      : #990000;
+    width                           : 100px;
+    height                          : 100px;
+    position                        : absolute;
+
+    border-radius                   : 125px;
+    -webkit-border-radius           : 125px;
+    -moz-border-radius              : 125px;
+
+    border-top-right-radius         : 0;
+    -webkit-border-top-right-radius : 0;
+    -moz-border-radius-topright     : 0;
+}
+
+
+/*red*/
+.raindrop:nth-child(1){
+    transform                       : rotate(-72deg);
+    -webkit-transform               : rotate(-72deg);
+    -moz-transform                  : rotate(-72deg);
+    -o-transform                    : rotate(-72deg);
+    -ms-transform                   : rotate(-72deg);
+    top                             : 146px;
+    left                            : 159px;
+}
+.raindrop:nth-child(2){
+    transform                       : rotate(-144deg);
+    -webkit-transform               : rotate(-144deg);
+    -moz-transform                  : rotate(-144deg);
+    -o-transform                    : rotate(-144deg);
+    -ms-transform                   : rotate(-144deg);
+    top                             : 110px;
+    left                            : 180px;
+}
+.raindrop:nth-child(3){
+    transform                       : rotate(-200deg);
+    -webkit-transform               : rotate(-230deg);
+    -moz-transform                  : rotate(-72deg);
+    -o-transform                    : rotate(-72deg);
+    -ms-transform                   : rotate(-72deg);
+    top                             : 78px;
+    left                            : 145px;
+}
+.raindrop:nth-child(4){
+    transform                       : rotate(-288deg);
+    -webkit-transform               : rotate(-288deg);
+    -moz-transform                  : rotate(-288deg);
+    -o-transform                    : rotate(-288deg);
+    -ms-transform                   : rotate(-288deg);
+    top                             : 98px;
+    left                            : 108px;
+}
+.raindrop:nth-child(5){
+    transform                       : rotate(0deg);
+    -webkit-transform               : rotate(0deg);
+    -moz-transform                  : rotate(0deg);
+    -o-transform                    : rotate(0deg);
+    -ms-transform                   : rotate(0deg);
+    top                             : 140px;
+    left                            : 117px;
+}
+.raindrops:nth-child(1){
+    transform                       : rotate(-50deg);
+    -webkit-transform               : rotate(-50deg);
+    -moz-transform                  : rotate(-50deg);
+    -o-transform                    : rotate(-50deg);
+    -ms-transform                   : rotate(-50deg);
+    top                             : 141px;
+    left                            : 167px;
+}
+.raindrops:nth-child(2){
+    transform                       : rotate(-144deg);
+    -webkit-transform               : rotate(-144deg);
+    -moz-transform                  : rotate(-144deg);
+    -o-transform                    : rotate(-144deg);
+    -ms-transform                   : rotate(-144deg);
+    top                             : 120px;
+    left                            : 180px;
+}
+.raindrops:nth-child(3){
+    transform                       : rotate(-200deg);
+    -webkit-transform               : rotate(-230deg);
+    -moz-transform                  : rotate(-72deg);
+    -o-transform                    : rotate(-72deg);
+    -ms-transform                   : rotate(-72deg);
+    top                             : 109px;
+    left                            : 160px;
+}
+.raindrops:nth-child(4){
+    transform                       : rotate(-288deg);
+    -webkit-transform               : rotate(-288deg);
+    -moz-transform                  : rotate(-288deg);
+    -o-transform                    : rotate(-288deg);
+    -ms-transform                   : rotate(-288deg);
+    top                             : 117px;
+    left                            : 138px;
+}
+.raindrops:nth-child(5){
+    transform                       : rotate(0deg);
+    -webkit-transform               : rotate(0deg);
+    -moz-transform                  : rotate(0deg);
+    -o-transform                    : rotate(0deg);
+    -ms-transform                   : rotate(0deg);
+    top                             : 139px;
+    left                            : 142px;
+}

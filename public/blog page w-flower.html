@@ -19,80 +19,58 @@
     <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
     <link href="css/flower.css" rel="stylesheet" type="text/css">
     <style>
-    h1#new_title{
+    h1#fancy-font{
       font-family: 'Nixie One', cursive;
-      font-size: 110px;
-      width:80px;
-      height:168px;
-      margin-left:275px;
-      margin-right:;
-      margin-top:-128px;     
+      font-size: 58px;
     }
     p#fancy-font_p{
-      font-family:'Nixie One';
+      font-family:'Nixie One', cursive;
       font-size:30px;
     }
     
-.sidebar{
-  background-color: #B9B9B9;
-  height:924px;
-  width: 400px;
-  /*margin: 100px;*/
-  float:right;
-  margin-top:-30px;
+  .sidebar{
+        background-color: #BDBDBD;
+        height:800px;
+        width: 400px;
+        /*margin: 100px;*/
+        float:right;
+        margin-top:-30px;
 }
-.sidebar_back{
-  background-color:#B9B9B9;
+.emailbox{
+  background-color:#BDBDBD;
   margin-top:30px;
   text-align:center;
-}
-.ruth_pic{
-  display:block;
-  height:340px;
-  margin-left:-5px;
-  margin-top:-21px;
-  padding-top: 61px;
 }
 .ebox{
   text-align:center;
   margin-top:30px;
 }
-.title{
+.flower{
+  width:11px;
+  height:400px;
+  padding-right:281px;
+  padding-left:3px;
+  margin-right:415px;
+  margin-left:-949px;
+  margin-top:-324px;
+}
+.body{
   width:614px;
   height:0px;
   padding-right:305px;
   padding-left:7px;
   margin-right:450px;
-  margin-left:-908px;
-  margin-top:-668px;
+  margin-left:-653px;
+  margin-top:-275px;
 }
 .entry{
-  background-color: black;
-  color:white;
-  width:1012px;
-  height:461px;
-  padding-right:50px;
-  padding-left:50px;
-}
-.form{
-  width:auto;
+  width:1037px;
   height:0px;
-  padding-right:0px;
+  padding-right:206px;
   padding-left:0px;
-  margin-right:0px;
-  margin-left:33px;
-  margin-top:1px;
-}
-.bar{
-  background-color:black;
-  width:auto;
-  height:15px;
-  
-}
-.footer{
-  height:100px;
-  margin-left:;
-  margin-right:;
+  margin-right:673px;
+  margin-left:-891px;
+  margin-top:205px;
 }
 
 </style>
@@ -125,52 +103,85 @@
 </nav>
 
 <!-- body begins from here down -->
-  <!-- sidebar box -->
   <div class="sidebar">
-  <!-- <div class="sidebar_back">
-    <img class="ruth_pic" src="/img/hi2.png" class="img-responsive">
-  </div> -->
-  <!-- <div class="bar"></div> -->
-  <div class="form">
+    <div class="container">
+<!-- sidebar box -->
+  <div class="emailbox">
+    <img src="/img/emailbox.jpg" class="img-responsive">
+    </div>
+    <div class="container">
     <form method="POST" action="/process-form.php">
-      <p id="fancy-font_p"><br>Let's schedule an <br>interview today!
-        <br>Fill out the form<br> below to get started.<br>
-      </p>
-      <p>
+    <p id="fancy-font_p"><br>Let's schedule an <br>interview today!<br>Fill out the form<br> below to get started.<br></p>
+        
         <label for="Name">Name:</label>
-        <input id="Name" name="Name" type="text" placeholder="Name">
-        <br>
+        <input id="Name" name="Name" type="text" placeholder="Name"><br>
         <label for="email">Email:</label>
-        <input id="email" name="email" type="email" placeholder="Email"><input for="submit" type="submit">
-      </p>
-    </form>
-  </div>
+        <input id="email" name="email" type="email" placeholder="Email">
+    </p>
+  </form>
   </div>
 <!-- end of sidebar box -->
-<!-- blog body starts here -->
-  <div class ="entry">
-    <img class="ruth_pic" src="/img/hi2.jpg" class="img-responsive">
-    <h1 id= "new_title"> Blog</h1>
-    <p> The trials and tribulations of R. Spina... </p><br><br>
+
+  <div class="container flower fa-spin">
+  <div class="drops">
+    <div class="raindrop lg"></div>
+    <div class="raindrop lg"></div>
+    <div class="raindrop lg"></div>
+    <div class="raindrop lg"></div>
+    <div class="raindrop lg"></div>
+</div>
+<div class="drops">
+    <div class="raindrop sm"></div>
+    <div class="raindrop sm"></div>
+    <div class="raindrop sm"></div>
+    <div class="raindrop sm"></div>
+    <div class="raindrop sm"></div>
+</div>
+<div class="drops">
+    <div class="raindrops seed"></div>
+    <div class="raindrops seed"></div>
+    <div class="raindrops seed"></div>
+    <div class="raindrops seed"></div>
+    <div class="raindrops seed"></div> 
+</div>
+</div>
+  <div class ="container body">
+    <h1 id= "fancy-font"> Blog</h1>
+    <p> The trials and tribulations of R. Spina... </p>
+  </div>
+  <div class="container entry">
   <h2 id="fancy-font"> Unary operator, it's not what you think...</h2>
   <p>Posted by: R. Spina Aug. 29th 2014</p><br><p> Messenger bag lo-fi ex authentic meggings, cardigan post-ironic fugiat pickled mumblecore deep v small batch. Culpa cardigan literally master cleanse, anim cillum aliquip. Magna et fanny pack Tumblr church-key, eu selvage raw denim squid consequat roof party deep v. Retro authentic ullamco jean shorts, exercitation placeat swag lomo. Drinking vinegar tattooed semiotics PBR, pariatur selvage nihil. Deep v nisi Marfa Portland, meggings biodiesel cornhole meh Bushwick nesciunt irony Tonx fashion axe aliqua. Officia culpa incididunt chambray.<br><br>
 
 Thundercats literally fanny pack magna, retro banh mi mustache. Readymade polaroid fugiat Marfa sapiente. Four loko quinoa commodo, sint disrupt Tumblr slow-carb velit exercitation aliqua chambray DIY. Ugh Intelligentsia slow-carb beard fugiat ad, art party chillwave chia twee sapiente craft beer. Distillery Bushwick lomo shabby chic, church-key typewriter sunt Tonx Truffaut cardigan mollit. Sint Schlitz narwhal keffiyeh. Mumblecore seitan biodiesel, hashtag fashion axe Vice organic stumptown.</p>
 <hr>
   </div>
-  <br>
-  <!-- blog body ends here -->
 
 
 
 
  <!-- Footer -->
-    <footer class="footer">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Contact Ruth Spina</strong>
+                    </h4>
+                    <p>San Antonio, Texas</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (210) 802-3303</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">rbips.25@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </div>
   </body>
 </html>

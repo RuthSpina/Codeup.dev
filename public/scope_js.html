@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Scope</title>
+</head>
+<body>
+
+<script>
+(function sayHello(name){
+    var myNameIs = 'Bob';
+console.log('Hello from' + " " +name);
+}());
+console.log(sayHello(myNameIs));
+
+
+
+
+
+
+(function isOdd(random){
+    var random = Math.floor((Math.random()*100)+1);
+    console.log((random %2 != 0)? random + "is odd": random + "is not odd");
+}());
+
+isOdd(random);
+
+
+</script>
+</body>
+</html>

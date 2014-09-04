@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>in class</title>
+</head>
+<body>
+    
+    <!-- <h1>List One</h1>
+<ul>
+    <li class="odd list-one-item">List 1, Item 1</li>
+    <li class="even list-one-item">List 1, Item 2</li>
+</ul>
+<h1>List Two</h1>
+<ul>
+    <li class="odd list-two-item">List 2, Item 1</li>
+    <li class="even list-two-item">List 2, Item 2</li>
+</ul> -->
+
+//<script>
+    // // get all elements with class 'even'
+    // var evenElements = document.getElementsByClassName('even');
+
+    // // print the first element
+    // console.log(evenElements[0]);
+
+    // // prints li.even.list-one-item
+
+    // // print all elements
+    // for (var i = 0; i < evenElements.length; i++) {
+    //     console.log(evenElements[i]);
+    // }
+
+    // // prints
+    // // li.even.list-one-item
+    // // li.even.list-two-item
+
+    // var listItems = document.getElementsByTagName('li');
+
+    // // print the first list item
+    // console.log(listItems[0]);
+
+    // // prints li.odd.list-one-item
+
+    // // print all the list items
+    // for (var i = 0; i < listItems.length; i++) {
+    //     console.log(listItems[i]);
+    // }
+
+    // prints
+    // li.odd.list-one-item
+    // li.even.list-one-item
+    // li.odd.list-two-item
+    // li.even.list-two-item
+    //</script>
+    _____________________
+    
+    <!-- <form name="login" method="POST" action="/process-form.php">
+    <p>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+    </p>
+    <p>
+        <input type="submit">
+    </p>
+</form> -->
+
+
+//<script>
+    // // get the "username" input
+    // var usernameInput = document.forms['login']['username'];
+    
+    // *you are accessing the username by the form.
+    
+    // new way of identifying a id in form:
+    
+    // var usernameInput = document.getElementById('username');
+    
+    // **you are now getting the username by the Id.
+    
+    //</script>
+<!-- <ul>
+    <li data-dbid="123">Item one</li>
+    <li data-dbid="234">Item two</li>
+</ul> -->
+// <script>
+//     // get the main heading h1 by id
+//     var listItems = document.getElementsByTagName('li');
+
+//     for (var i = 0; i < listItems.length; i++) {
+//         var dbId = listItems[i].attributes['data-dbid'].value;
+//         console.log(dbId);
+//     }
+
+    // prints
+    // 123
+    // 234
+//</script>
+
+
+    <script>
+
+        // // get the body element
+        // var bodyElement = document.getElementsByTagName('body')[0];
+
+        // // change the background color of the page
+        // bodyElement.style['background-color'] = 'blue';
+
+        // console.log(bodyElement.style['background-color']); // prints blue
+
+    </script>
+    _______________________________________________________
+    
+    <button id="btn1">Click Me!</button>
+     <button id="hoverp">Click Me!</button>
+     <p><input type ="text" id="keyboardText"/></p>
+    <script>
+
+        // create a handler function
+        var listener = function (event) {
+            alert('You clicked the button!');
+        }
+
+        // register the listener to handle clicks on btn1
+        // document.getElementById('btn1').addEventListener('click', listener, false);
+        
+        document.getElementById('btn1').addEventListener('click', function(){
+            console.log('you clicked me!');
+        });
+        document.getElementById('hoverp').addEventListener("mouseover", function(){
+            this.style['background-color'] = "yellow";
+        });
+        var textBox = document.getElementById("keyboardText");
+        
+        // textBox.addEventListener("keydown", function(){
+        // console.log('this');
+        // });
+        
+        document.getElementById('formSubmit').addEventListener('keydown',function(e){
+            if(confirm('You Sure')){
+                console.log("they're sure");
+        }else{
+            console.log("else");
+        }
+    });
+        
+
+    </script>
+</body>
+</html>
+
+
+</body>
+</html>

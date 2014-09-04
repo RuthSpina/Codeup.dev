@@ -1,0 +1,55 @@
+JS foreach array setup:
+array.forEach(function(value, key, array){
+});
+////
+
+js has a function that lets you pass arguments and turns it into an array.
+
+function testArguments(){
+    console.log(arguments);
+};
+///
+
+BOM and DOM
+
+Timeout:
+
+var delay = 5000; // delay time in milliseconds
+
+var timeoutId = setTimeout(function () {
+    alert('Here is a delayed hello!');
+}, delay);
+
+_____________________
+
+
+Interval:
+
+creates a delayed alert that pops up on screen in window.
+
+set interval is like set timeOut but repeats it- it continues until you reset it. 
+to reset - set interval: clearInterval(interbalId);
+___________________
+
+var delay = 5000; // delay time in milliseconds
+
+var timeoutId = setTimeout(function () {
+    alert('Here is a delayed hello!');
+}, delay);
+
+*var interval = setInterval(function, interval);
+as opposed to :
+*var interval = setInterval(function(), interval);
+
+*** Don't put open parenthesis on the function because it calls it immediately.when you only want it called with the interval.
+
+_________________
+
+DOM
+
+get elements by id- you get one
+get elements by class you get an array
+
+
+
+

@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Objects JSON</title>
+</head>
+<body>
+    <script>
+    // todo:
+// Create an array of objects that represent books.
+// Each book should have a title and an author.
+// The book author should be an object with a firstName and lastName.
+// Be creative and add at least 5 books to the array
+
+
+
+var books = [
+{'Number': 1,
+'Title': 'To Kill a Mockingbird',
+'Author': {
+        'firstName': 'Harper',
+        'lastName': 'Lee'
+        },
+'Excerpt':'The one thing that doesnt abide by majority rule is a persons conscience'
+    },
+{'Number': 2,
+'Title':'Of Mice and Men',
+'Author':{
+        'firstName': 'John',
+        'lastName': 'Steinbeck'
+        },
+'Excerpt':'As happens sometimes, a moment settled and hovered and remained for much more than a moment. And sound stopped and movement stopped for much, much more than a moment.'
+    },
+{'Number': 3,
+'Title': 'East of Eden',
+'Author': {
+        'firstName': 'John',
+        'lastName': 'Steinbeck'
+        },
+'Excerpt':'And now that you dont have to be perfect, you can be good.'
+    },
+{'Number': 4,
+'Title': 'The Eyes of the Dragon',
+'Author':{
+        'firstName': 'Stephen',
+        'lastName': 'King'
+        },
+'Excerpt':'Angels may be safe from damnation, but human beings are less fortunate things, and for them hell is always close.'
+    },
+{'Number': 5,
+'Title': 'Sons and Lovers',
+'Author': {
+        'firstName':'DH',
+        'lastName': 'Lawrence'
+        },
+'Excerpt':'Recklessness is almost a mans revenge on his woman. He feels he is not valued so he will risk destroying himself to deprive her altogether.'
+    }
+];
+
+// log out the books array
+console.log(books);
+
+// todo:
+// Loop through the array of books using .forEach and print out the specified information about each one.
+// start loop here
+books.forEach(function (book,index,books){
+    // console.log("Book:" + book.Number);
+    console.log("...__________ " +" "+"   "+" __________...");
+    console.log("|||"+ "             "+"V" + "            "+ "|||");
+    console.log("|||"+ " "+"Book:" + book.Number+"      " + "|" + "            "+ "|||");
+    console.log("|||"+ "             " + "|" + "            "+ "|||");
+    console.log("|||"+ "             " + "|" + "            "+ "|||");
+    console.log("|||"+ "             " + "|" + "            "+ "|||");
+    console.log("|||____________" +" "+"| "+"___________|||");
+      console.log("                   ");
+    console.log("Title:" + " " + book.Title);
+    console.log("Author:" + " " + book.Author.lastName + ", "+ book.Author.firstName);
+    console.log("Excerpt:" + " " + book.Excerpt);
+    console.log("                   ");
+    console.log("                   ");
+    console.log("                   ");
+    
+
+});
+
+
+
+
+
+
+
+
+
+// foreach(books as key => value){
+//     console.log("Book #" + 0.);
+//     console.log("Title: " + books.);
+//      console.log("Author: " + books.);
+//      console.log("---");
+//  };
+// end loop here
+</script>
+</body>
+</html>

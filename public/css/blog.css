@@ -1,0 +1,92 @@
+h1#new_title{
+      font-family: 'Nixie One', cursive;
+      font-size: 100px;
+      width:80px;
+      height:177px;
+      margin-left:346px;
+      margin-top:-339px;     
+    }
+    p#fancy-font_p{
+      font-family:'Nixie One';
+      font-size:30px;
+    }
+.sidebar{
+  background-color: #B9B9B9;
+  height:1321px;
+  width: 400px;
+  /*margin: 100px;*/
+  float:right;
+  margin-top:-30px;
+}
+.sidebar_back{
+  background-color:#B9B9B9;
+  margin-top:30px;
+  text-align:center;
+}
+.ruth_pic{
+  display:block;
+  height:340px;
+  margin-left:-5px;
+  margin-top:-21px;
+  padding-top: 61px;
+}
+.ebox{
+  text-align:center;
+  margin-top:30px;
+}
+.title{
+  width:614px;
+  height:0px;
+  padding-right:305px;
+  padding-left:7px;
+  margin-right:450px;
+  margin-left:-908px;
+  margin-top:-668px;
+}
+.entry{
+  background-color: black;
+  color:white;
+  width:1012px;
+  height:477px;
+  padding-right:50px;
+  padding-left:50px;
+  margin-top:-95px;
+}
+.form{
+  width:auto;
+  height:0px;
+  padding-right:0px;
+  padding-left:0px;
+  margin-right:0px;
+  margin-left:33px;
+  margin-top:1px;
+}
+.bar{
+  background-color:black;
+  width:auto;
+  height:15px;
+  
+}
+.footer{
+  height:100px;
+  margin-left:;
+  margin-right:;
+}
+.body{
+  color:black;
+  height:490px;
+  margin-top:56px;
+  margin-left:34px;
+  margin-right:509px;
+}
+.header_box{
+  width: 832px;
+   height: 334px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -619px;
+   margin-top: -265px;
+  background-color:white;
+  color:black;
+}

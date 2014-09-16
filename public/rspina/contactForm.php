@@ -1,6 +1,6 @@
 <?php
 
-$admin_email = "lukasz@holeczek.pl"; // Only Change This Mail
+$admin_email = "hello@ruthspina.com"; 
 
 	
 if ($_POST['new_message']) {
@@ -27,9 +27,7 @@ if ($_POST['new_message']) {
 "$name - $email - $www - send you message.\n\n
 $user_message\n\n
 _____________________________________________
-PLEASE DO NOT REPLY \n\n
-BOOTSTRAPMASTER.COM - BEST BOOTSTRAP THEMES \n\n
-NESSFILE.COM - The most beautiful and the best Address Book ever 
+
 
 ";
 
